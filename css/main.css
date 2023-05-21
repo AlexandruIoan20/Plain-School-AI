@@ -1,0 +1,28 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+li { 
+    list-style-type: none;
+}
+
+.column-1, .column-2 { 
+    background-color: #000;
+}
+
+.domains{ 
+    display: flex; 
+    place-content: center;
+}
+
+.link-img { 
+    opacity: 60%;
+}
+
+.link-img:hover{ 
+    opacity: 100%;
+
+}
+
