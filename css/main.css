@@ -4,10 +4,36 @@
     box-sizing: border-box;
 }
 
+body { 
+    font-family: 'Roboto', sans-serif
+}
+
 li { 
     list-style-type: none;
 }
 
+/* NavBar */
+h1 {
+    color: white; 
+}
+
+header { 
+    background-color: #03045e;
+}
+
+header h1 { 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+nav a { 
+    color: white; 
+    text-decoration: none;
+}
+
+
+/* Domenii */ 
 .column-1, .column-2 { 
     background-color: #000;
 }
@@ -23,6 +49,40 @@ li {
 
 .link-img:hover{ 
     opacity: 100%;
+}
 
+/* Navbar */
+header { 
+    display: flex; 
+    height: 5vh; 
+}
+
+nav { 
+    margin-left: auto; 
+    height: 5vh; 
+}
+
+nav ul { 
+    display: flex; 
+    height: 5vh; 
+}
+
+nav ul li {
+    font-size: 1.5rem; 
+}
+
+nav ul li a { 
+    padding-inline: 2rem; 
+    height: 5vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a:hover, nav ul li a:focus { 
+    background-color: #0077b6;
+    font-weight: 900;
+
+    border-radius: 20px;
 }
 
