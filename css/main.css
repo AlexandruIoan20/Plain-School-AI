@@ -5,7 +5,7 @@
 }
 
 body { 
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif; 
 }
 
 li { 
@@ -38,7 +38,7 @@ nav a {
     background-color: #000;
 }
 
-.domains{ 
+.domains { 
     display: flex; 
     place-content: center;
 }
@@ -77,6 +77,8 @@ nav ul li a {
     display: flex; 
     justify-content: center;
     align-items: center;
+
+    font-weight: 400;
 }
 
 nav ul li a:hover, nav ul li a:focus { 
@@ -84,5 +86,30 @@ nav ul li a:hover, nav ul li a:focus {
     font-weight: 900;
 
     border-radius: 20px;
+}
+
+/* Informatii */ 
+
+.informations { 
+    height: 80vh; 
+    display: grid; 
+    place-content:  center;
+}
+
+.info-summary { 
+    width: 60vw; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    padding: 1rem; 
+    margin-top: 1rem; 
+}
+
+
+details { 
+    margin-inline: 20vw; 
+}
+
+details p { 
+    padding: 1rem; 
 }
 
