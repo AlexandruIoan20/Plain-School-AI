@@ -100,10 +100,10 @@ nav ul li a:hover, nav ul li a:focus {
     width: 60vw; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+    font-size: 2rem; 
     padding: 1rem; 
-    margin-top: 1rem; 
+    margin-top: 3rem; 
 }
-
 
 details { 
     margin-inline: 20vw; 
@@ -113,3 +113,43 @@ details p {
     padding: 1rem; 
 }
 
+.main-img { 
+    padding-inline: 3rem;
+    padding-top: 1rem;
+    width: 100vw; 
+    height: 70vh; 
+}
+
+/* GPT */
+
+.gpt {
+    display: grid;
+    place-content: center;
+}
+
+.gpt a  { 
+    text-decoration: none;
+}
+
+.gpt a:hover { 
+    text-decoration: underline;
+    font-weight: 900;
+
+    font-size: 1.2rem; 
+}
+
+.gpt-p { 
+    text-align: center;
+    color: #000; 
+}
+
+/* Home Page  */
+
+.main-p { 
+    padding: 2rem;
+    margin-inline: 15vw;
+}
+
+h2 { 
+    margin-inline: 15vw; 
+}
